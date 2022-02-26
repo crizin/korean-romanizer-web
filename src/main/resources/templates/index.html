@@ -53,14 +53,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col">
+			<div class="col-12 col-md-6">
 				<h5 class="mt-4"><label for="string" class="form-label">Text to convert</label></h5>
-				<textarea class="form-control" id="string" name="string" rows="10" placeholder="Korean sentence for Romanization" required autofocus
+				<textarea class="form-control" id="string" name="string" rows="5" placeholder="Korean sentence for Romanization" required autofocus
 						  th:text="${string}"></textarea>
 			</div>
-			<div class="col">
+			<div class="col-12 col-md-6">
 				<h5 class="mt-4"><label for="result" class="form-label">Converted result</label></h5>
-				<textarea class="form-control" rows="10" readonly id="result" th:text="${romanized}"></textarea>
+				<textarea class="form-control" rows="5" readonly id="result" th:text="${romanized}"></textarea>
 			</div>
 		</div>
 		<div class="mt-3">
